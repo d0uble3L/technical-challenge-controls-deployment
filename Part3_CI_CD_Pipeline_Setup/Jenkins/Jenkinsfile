@@ -1,0 +1,34 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                // Print a message to indicate the build stage
+                sh 'echo Building...'
+                // Add build steps here
+            }
+        }
+        stage('Test') {
+            steps {
+                // Print a message to indicate the test stage
+                sh 'echo Testing...'
+                // Add test steps here
+            }
+        }
+        stage('Security Scan') {
+            steps {
+                // Print a message to indicate the security scan stage
+                sh 'echo Running Security Scan...'
+                // Add security scan steps here
+            }
+        }
+        stage('Deploy') {
+            steps {
+                // Print a message to indicate the deploy stage
+                sh 'echo Deploying...'
+                // Add deploy steps here
+            }
+        }
+    }
+}
