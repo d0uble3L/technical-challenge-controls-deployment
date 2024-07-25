@@ -4,6 +4,8 @@
 
 This section assesses the setup of a CI/CD pipeline for a cloud-native application, using configuration management tools and integrating security scanning.
 
+- Points: 40
+
 ## Contents
 
 - `Terraform/`

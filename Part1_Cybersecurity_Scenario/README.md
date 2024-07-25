@@ -4,6 +4,8 @@
 
 This section addresses a cybersecurity scenario involving a security breach in a financial company. The tasks focus on threat intelligence, incident response, and network security measures.
 
+- Points: 30
+
 ## Contents
 
 - `Threat_Intelligence_Report.md`: Provides an analysis of the types of attacks, how vulnerabilities can be exploited, and preventive measures.

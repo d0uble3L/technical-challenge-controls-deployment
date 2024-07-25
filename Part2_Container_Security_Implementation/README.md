@@ -4,6 +4,8 @@
 
 This section evaluates container security best practices, Kubernetes security configurations, and IaaS security measures for deploying a microservices-based application.
 
+- Points: 30
+
 ## Contents
 
 - `Docker_Security_Best_Practices.md`: Lists and explains five Docker security best practices, including a Dockerfile example.
