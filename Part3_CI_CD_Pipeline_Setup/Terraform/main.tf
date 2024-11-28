@@ -8,6 +8,9 @@ resource "aws_instance" "web_server" {
   ami           = "ami-0c55b159cbfafe1f0" # Example AMI ID
   instance_type = "t2.micro"
 
+  # Prevent accidental termination of the instance
+  disable_api_termination = true
+
   # Define the root block device with encryption enabled
   root_block_device {
     encrypted = true
