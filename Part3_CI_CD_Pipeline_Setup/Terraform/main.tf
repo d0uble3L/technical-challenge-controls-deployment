@@ -18,6 +18,16 @@ resource "aws_instance" "web_server" {
     Name = "WebServer"
   }
 
+  # Define the root block device with encryption enabled
+  root_block_device {
+    encrypted = true
+  }
+
+  # Set metadata options for enhanced security
+  metadata_options {
+    http_tokens = "required"
+  }
+
   # Use remote-exec provisioner to run commands on the instance
   provisioner "remote-exec" {
     inline = [
