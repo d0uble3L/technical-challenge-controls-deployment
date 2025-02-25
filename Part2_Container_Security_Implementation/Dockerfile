@@ -1,4 +1,4 @@
-FROM python:3.14.0a2-alpine3.20
+FROM python:3.14-rc-alpine3.21
 # Create a non-root user
 RUN useradd -m myuser
 USER myuser
